@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CB4739CB2CB969640002C385 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = CB4739CA2CB969640002C385 /* Readme.md */; };
+		CB4739CC2CB969640002C385 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = CB4739CA2CB969640002C385 /* Readme.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CB99BC852CB8391F008CDCB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,17 +29,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB4739CA2CB969640002C385 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		CB99BC742CB8391D008CDCB2 /* RecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB99BC842CB8391F008CDCB2 /* RecipeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB99BC8E2CB8391F008CDCB2 /* RecipeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CB99BC762CB8391D008CDCB2 /* RecipeApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RecipeApp;
-			sourceTree = "<group>";
-		};
 		CB99BC872CB8391F008CDCB2 /* RecipeAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RecipeAppTests;
@@ -43,6 +44,11 @@
 		CB99BC912CB8391F008CDCB2 /* RecipeAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RecipeAppUITests;
+			sourceTree = "<group>";
+		};
+		CB99BCEA2CB87E79008CDCB2 /* RecipeApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RecipeApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +81,8 @@
 		CB99BC6B2CB8391D008CDCB2 = {
 			isa = PBXGroup;
 			children = (
-				CB99BC762CB8391D008CDCB2 /* RecipeApp */,
+				CB4739CA2CB969640002C385 /* Readme.md */,
+				CB99BCEA2CB87E79008CDCB2 /* RecipeApp */,
 				CB99BC872CB8391F008CDCB2 /* RecipeAppTests */,
 				CB99BC912CB8391F008CDCB2 /* RecipeAppUITests */,
 				CB99BC752CB8391D008CDCB2 /* Products */,
@@ -108,7 +115,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CB99BC762CB8391D008CDCB2 /* RecipeApp */,
+				CB99BCEA2CB87E79008CDCB2 /* RecipeApp */,
 			);
 			name = RecipeApp;
 			packageProductDependencies = (
@@ -212,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4739CB2CB969640002C385 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4739CC2CB969640002C385 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
